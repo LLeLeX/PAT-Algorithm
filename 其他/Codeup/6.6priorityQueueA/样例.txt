@@ -1,0 +1,11 @@
+1
+Task0(Task1,Task2)
+
+4
+Task0(Task1,Task2)
+Task1(Task3)
+Task2(NULL)
+Task3(NULL)
+
+1
+Task0(NULL)

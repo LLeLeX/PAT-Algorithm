@@ -1,0 +1,29 @@
+PPATTPPATT
+ans:16
+
+PAAATTTPPPAT
+ans:16
+
+PPATTPAPPATT
+ans：24
+2 4
+*8
+3 2
+*14
+5 2
+*24
+
+
+
+PAAAATTTPPPAT
+ans:20
+1 4
+*4
+1 4
+*8
+1 4
+*12
+1 4
+*16
+4 1
+*20
