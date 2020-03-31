@@ -1,4 +1,6 @@
-[CSDN](https://blog.csdn.net/weixin_44343282)：https://blog.csdn.net/weixin_44343282（更新频繁）
+[CSDN（更新频繁）](https://blog.csdn.net/weixin_44343282)：https://blog.csdn.net/weixin_44343282
+
+
 
 # PAT-Algorithm
 
