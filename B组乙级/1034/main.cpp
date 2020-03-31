@@ -122,7 +122,7 @@ int main(int argc, char *argv[]) {
 	ans = mul(num1, num2);
 	display(ans);
 	printf("\n"); 
-	//³ý·¨??????
+	//³ý·¨
 	display(num1);
 	printf(" / ");
 	display(num2);

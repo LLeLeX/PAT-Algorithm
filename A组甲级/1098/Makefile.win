@@ -1,8 +1,8 @@
 # Project: Project1
 # Makefile created by Dev-C++ 5.4.0
 
-CPP      = g++.exe -std=c++11 -D__DEBUG__
-CC       = gcc.exe -std=c++11 -D__DEBUG__
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
 OBJ      = main.o $(RES)
 LINKOBJ  = main.o $(RES)
@@ -10,8 +10,8 @@ LIBS     = -L"E:/Dev5.1.1/Dev-Cpp/MinGW32/lib" -static-libstdc++ -static-libgcc 
 INCS     = -I"E:/Dev5.1.1/Dev-Cpp/MinGW32/include"
 CXXINCS  = -I"E:/Dev5.1.1/Dev-Cpp/MinGW32/include"
 BIN      = Project1.exe
-CXXFLAGS = $(CXXINCS)  -std=c++11 -g3
-CFLAGS   = $(INCS)  -std=c++11 -g3
+CXXFLAGS = $(CXXINCS)  -std=c++11 -std=c++0x -g3
+CFLAGS   = $(INCS)  -std=c++11 -std=c++0x -g3
 RM       = rm -f
 
 .PHONY: all all-before all-after clean clean-custom
