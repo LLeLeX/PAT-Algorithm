@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+int K, len;
+char str[1005];
+int poscnt[1005];
+bool isBroken[1005], hashtable[1005];
+int main(int argc, char *argv[]) {
+	scanf("%d", &K);
+	getchar();
+	scanf("%s", str);
+	len = strlen(str);
+	memset(isBroken, true, sizeof(isBroken)); 
+
+	for(int i = 0; i < len; ++i)
+	{
+		int pos = str[i];
+		hashtable[pos] = true;//出现的字符 
+		for(int j = i + 1; j < i + K && (i + K) < len; ++j)//向后遍历K位 
+		{
+			if(str[i] != str[j])//K位之内有一位与str[i]不同
+			{
+				//isBroken[pos] = false;//说明str[i]是正常的 
+				break; 
+			}
+		}
+	}
+	
+	
+	
+	
+	for(int i = 90; i < 130; ++i)
+	{
+		if(hashtable[i] == true && isBroken[i] == true)
+		{
+			printf("%c", i);
+		}
+	}
+	/*char a = 'a', z = 'z', b = '_'; 
+	printf("%d\n", a);
+	printf("%d\n", z);
+	printf("%d\n", b);*/
+	return 0;
+}
