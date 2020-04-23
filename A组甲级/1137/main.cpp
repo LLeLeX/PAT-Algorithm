@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int maxn = 10010;
+const int maxn = 30010;
 int P, M, N;
 struct Student{
 	string name;
